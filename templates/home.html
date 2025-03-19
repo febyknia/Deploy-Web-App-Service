@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>group6</title>
+    <link href="https://fonts.googleapis.com/css2?family=SF+Pro+Display:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="network-bg"></div>
+    <div class="container">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a8/Microsoft_Azure_Logo.svg" class="azure-logo" alt="Azure Logo">
+        <h1>Hello World</h1>
+        <a href="{{ url_for('form') }}">
+            <button class="btn">Complete The Form</button>
+        </a>
+    </div>
+</body>
+</html>
